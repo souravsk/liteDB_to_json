@@ -1,0 +1,18 @@
+[
+  {
+    "_id": 1,
+    "SessionStartTime": "2024-07-10T14:56:49.217+05:30",
+    "SessionFinishTime": "2024-07-10T15:47:54.592+05:30",
+    "IsOffline": false,
+    "CreateDatetime": "2024-07-10T14:56:41.255+05:30",
+    "UpdateDatetime": "2024-07-10T15:47:54.592+05:30"
+  },
+  {
+    "_id": 2,
+    "SessionStartTime": "2024-07-10T15:57:55.56+05:30",
+    "SessionFinishTime": "2024-07-10T16:15:24.183+05:30",
+    "IsOffline": false,
+    "CreateDatetime": "2024-07-10T15:57:47.607+05:30",
+    "UpdateDatetime": "2024-07-10T16:15:24.183+05:30"
+  }
+]

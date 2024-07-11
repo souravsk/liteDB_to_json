@@ -1,0 +1,562 @@
+[
+  {
+    "_id": 1,
+    "WeaponType": 0,
+    "RecommendedRole": {
+      "$id": 9,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Unknown",
+    "DisplayName": "General",
+    "Description": "For any weapon' type",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.636+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.636+05:30"
+  },
+  {
+    "_id": 2,
+    "WeaponType": 1,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Predator",
+    "DisplayName": "Predator",
+    "Description": "Predator",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.642+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.642+05:30"
+  },
+  {
+    "_id": 3,
+    "WeaponType": 2,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "AssaultRifleRu",
+    "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
+    "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.646+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.646+05:30"
+  },
+  {
+    "_id": 4,
+    "WeaponType": 3,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "AssaultRifleEu",
+    "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
+    "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.647+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.647+05:30"
+  },
+  {
+    "_id": 5,
+    "WeaponType": 4,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "AssaultRifleUsa",
+    "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
+    "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.648+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.648+05:30"
+  },
+  {
+    "_id": 6,
+    "WeaponType": 13,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Terminator",
+    "DisplayName": "TERMINATOR",
+    "Description": "TERMINATOR",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.648+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.648+05:30"
+  },
+  {
+    "_id": 7,
+    "WeaponType": 18,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Warrior",
+    "DisplayName": "Warrior",
+    "Description": "Warrior",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.649+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.649+05:30"
+  },
+  {
+    "_id": 8,
+    "WeaponType": 19,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Ranger",
+    "DisplayName": "Ranger",
+    "Description": "Ranger",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.65+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.65+05:30"
+  },
+  {
+    "_id": 9,
+    "WeaponType": 10,
+    "RecommendedRole": {
+      "$id": 13,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Phoenix",
+    "DisplayName": "Phoenix",
+    "Description": "Phoenix",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.651+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.651+05:30"
+  },
+  {
+    "_id": 10,
+    "WeaponType": 11,
+    "RecommendedRole": {
+      "$id": 13,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SubmachineGunRu",
+    "DisplayName": "Submachine Gun (Ru)",
+    "Description": "Submachine Gun (Ru)",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.651+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.651+05:30"
+  },
+  {
+    "_id": 11,
+    "WeaponType": 12,
+    "RecommendedRole": {
+      "$id": 13,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SubmachineGunWo",
+    "DisplayName": "Submachine Gun (Wo)",
+    "Description": "Submachine Gun (Wo)",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.652+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.652+05:30"
+  },
+  {
+    "_id": 12,
+    "WeaponType": 15,
+    "RecommendedRole": {
+      "$id": 5,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Pistol",
+    "DisplayName": "Pistol",
+    "Description": "Pistol",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.653+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.653+05:30"
+  },
+  {
+    "_id": 13,
+    "WeaponType": 14,
+    "RecommendedRole": {
+      "$id": 5,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Hornet",
+    "DisplayName": "Hornet",
+    "Description": "Hornet",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.654+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.654+05:30"
+  },
+  {
+    "_id": 14,
+    "WeaponType": 5,
+    "RecommendedRole": {
+      "$id": 1,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SniperLight",
+    "DisplayName": "Sniper Light",
+    "Description": "Sniper Light",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.654+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.654+05:30"
+  },
+  {
+    "_id": 15,
+    "WeaponType": 6,
+    "RecommendedRole": {
+      "$id": 1,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SniperMedium",
+    "DisplayName": "Sniper Medium",
+    "Description": "Sniper Medium",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.659+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.659+05:30"
+  },
+  {
+    "_id": 16,
+    "WeaponType": 7,
+    "RecommendedRole": {
+      "$id": 1,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SniperLarge",
+    "DisplayName": "Sniper Large",
+    "Description": "Sniper Large",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.66+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.66+05:30"
+  },
+  {
+    "_id": 17,
+    "WeaponType": 8,
+    "RecommendedRole": {
+      "$id": 7,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "MachineGunRu",
+    "DisplayName": "Machine Gun (Ru)",
+    "Description": "Machine Gun (Ru)",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.661+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.661+05:30"
+  },
+  {
+    "_id": 18,
+    "WeaponType": 9,
+    "RecommendedRole": {
+      "$id": 7,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "MachineGunWo",
+    "DisplayName": "Machine Gun (Wo)",
+    "Description": "Machine Gun (Wo)",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.661+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.661+05:30"
+  },
+  {
+    "_id": 19,
+    "WeaponType": 16,
+    "RecommendedRole": {
+      "$id": 11,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Shotgun",
+    "DisplayName": "Shotgun",
+    "Description": "Shotgun",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.662+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.662+05:30"
+  },
+  {
+    "_id": 20,
+    "WeaponType": 17,
+    "RecommendedRole": {
+      "$id": 11,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "GrenadeLauncher",
+    "DisplayName": "Grenade Launcher",
+    "Description": "Grenade Launcher",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-10T14:55:48.663+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.663+05:30"
+  },
+  {
+    "_id": 21,
+    "WeaponType": 0,
+    "RecommendedRole": {
+      "$id": 9,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Unknown",
+    "DisplayName": "General",
+    "Description": "For any weapon' type",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.676+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.676+05:30"
+  },
+  {
+    "_id": 22,
+    "WeaponType": 1,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Predator",
+    "DisplayName": "Predator",
+    "Description": "Predator",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.687+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.687+05:30"
+  },
+  {
+    "_id": 23,
+    "WeaponType": 2,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "AssaultRifleRu",
+    "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
+    "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.69+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.69+05:30"
+  },
+  {
+    "_id": 24,
+    "WeaponType": 3,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "AssaultRifleEu",
+    "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
+    "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.694+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.694+05:30"
+  },
+  {
+    "_id": 25,
+    "WeaponType": 4,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "AssaultRifleUsa",
+    "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
+    "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.697+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.697+05:30"
+  },
+  {
+    "_id": 26,
+    "WeaponType": 13,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Terminator",
+    "DisplayName": "TERMINATOR",
+    "Description": "TERMINATOR",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.699+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.699+05:30"
+  },
+  {
+    "_id": 27,
+    "WeaponType": 18,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Warrior",
+    "DisplayName": "Warrior",
+    "Description": "Warrior",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.702+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.702+05:30"
+  },
+  {
+    "_id": 28,
+    "WeaponType": 19,
+    "RecommendedRole": {
+      "$id": 3,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Ranger",
+    "DisplayName": "Ranger",
+    "Description": "Ranger",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.705+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.705+05:30"
+  },
+  {
+    "_id": 29,
+    "WeaponType": 10,
+    "RecommendedRole": {
+      "$id": 13,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Phoenix",
+    "DisplayName": "Phoenix",
+    "Description": "Phoenix",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.708+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.708+05:30"
+  },
+  {
+    "_id": 30,
+    "WeaponType": 11,
+    "RecommendedRole": {
+      "$id": 13,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SubmachineGunRu",
+    "DisplayName": "Submachine Gun (Ru)",
+    "Description": "Submachine Gun (Ru)",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.711+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.711+05:30"
+  },
+  {
+    "_id": 31,
+    "WeaponType": 12,
+    "RecommendedRole": {
+      "$id": 13,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SubmachineGunWo",
+    "DisplayName": "Submachine Gun (Wo)",
+    "Description": "Submachine Gun (Wo)",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.715+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.715+05:30"
+  },
+  {
+    "_id": 32,
+    "WeaponType": 15,
+    "RecommendedRole": {
+      "$id": 5,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Pistol",
+    "DisplayName": "Pistol",
+    "Description": "Pistol",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.726+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.726+05:30"
+  },
+  {
+    "_id": 33,
+    "WeaponType": 14,
+    "RecommendedRole": {
+      "$id": 5,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Hornet",
+    "DisplayName": "Hornet",
+    "Description": "Hornet",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.729+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.729+05:30"
+  },
+  {
+    "_id": 34,
+    "WeaponType": 5,
+    "RecommendedRole": {
+      "$id": 1,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SniperLight",
+    "DisplayName": "Sniper Light",
+    "Description": "Sniper Light",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.733+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.733+05:30"
+  },
+  {
+    "_id": 35,
+    "WeaponType": 6,
+    "RecommendedRole": {
+      "$id": 1,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SniperMedium",
+    "DisplayName": "Sniper Medium",
+    "Description": "Sniper Medium",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.737+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.737+05:30"
+  },
+  {
+    "_id": 36,
+    "WeaponType": 7,
+    "RecommendedRole": {
+      "$id": 1,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "SniperLarge",
+    "DisplayName": "Sniper Large",
+    "Description": "Sniper Large",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.74+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.74+05:30"
+  },
+  {
+    "_id": 37,
+    "WeaponType": 8,
+    "RecommendedRole": {
+      "$id": 7,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "MachineGunRu",
+    "DisplayName": "Machine Gun (Ru)",
+    "Description": "Machine Gun (Ru)",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.745+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.745+05:30"
+  },
+  {
+    "_id": 38,
+    "WeaponType": 9,
+    "RecommendedRole": {
+      "$id": 7,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "MachineGunWo",
+    "DisplayName": "Machine Gun (Wo)",
+    "Description": "Machine Gun (Wo)",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.748+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.748+05:30"
+  },
+  {
+    "_id": 39,
+    "WeaponType": 16,
+    "RecommendedRole": {
+      "$id": 11,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "Shotgun",
+    "DisplayName": "Shotgun",
+    "Description": "Shotgun",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.752+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.752+05:30"
+  },
+  {
+    "_id": 40,
+    "WeaponType": 17,
+    "RecommendedRole": {
+      "$id": 11,
+      "$ref": "PlayerRoleData"
+    },
+    "Code": "GrenadeLauncher",
+    "DisplayName": "Grenade Launcher",
+    "Description": "Grenade Launcher",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-10T14:55:48.756+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.756+05:30"
+  }
+]

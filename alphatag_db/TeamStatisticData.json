@@ -1,0 +1,140 @@
+[
+  {
+    "_id": 1,
+    "GameStatistic": {
+      "$id": 1,
+      "$ref": "GameStatisticData"
+    },
+    "Color": "Red",
+    "Name": "Alpha Impact",
+    "IsWinner": true,
+    "TeamAvatarIndex": 5,
+    "RatePoints": 0,
+    "DeathsCount": 0,
+    "FragsCount": 0,
+    "TeammateKillsCount": 0,
+    "HitsCount": 0,
+    "RevivalsCount": 0,
+    "DeviceCapturingsCount": 0,
+    "ShotsCount": 0,
+    "WoundsCount": 0,
+    "TreatmentsCount": 0,
+    "CreateDatetime": "2024-07-09T16:09:49.132+05:30",
+    "UpdateDatetime": "2024-07-09T16:09:49.132+05:30"
+  },
+  {
+    "_id": 2,
+    "GameStatistic": {
+      "$id": 1,
+      "$ref": "GameStatisticData"
+    },
+    "Color": "Blue",
+    "Name": "Noob Power",
+    "IsWinner": false,
+    "TeamAvatarIndex": 2,
+    "RatePoints": 0,
+    "DeathsCount": 0,
+    "FragsCount": 0,
+    "TeammateKillsCount": 0,
+    "HitsCount": 0,
+    "RevivalsCount": 0,
+    "DeviceCapturingsCount": 0,
+    "ShotsCount": 0,
+    "WoundsCount": 0,
+    "TreatmentsCount": 0,
+    "CreateDatetime": "2024-07-09T16:09:49.132+05:30",
+    "UpdateDatetime": "2024-07-09T16:09:49.132+05:30"
+  },
+  {
+    "_id": 3,
+    "GameStatistic": {
+      "$id": 2,
+      "$ref": "GameStatisticData"
+    },
+    "Color": "Red",
+    "Name": "Scream Shadow",
+    "IsWinner": true,
+    "TeamAvatarIndex": 1,
+    "RatePoints": 0,
+    "DeathsCount": 0,
+    "FragsCount": 0,
+    "TeammateKillsCount": 0,
+    "HitsCount": 0,
+    "RevivalsCount": 0,
+    "DeviceCapturingsCount": 0,
+    "ShotsCount": 0,
+    "WoundsCount": 0,
+    "TreatmentsCount": 0,
+    "CreateDatetime": "2024-07-10T16:00:33.651+05:30",
+    "UpdateDatetime": "2024-07-10T16:00:33.651+05:30"
+  },
+  {
+    "_id": 4,
+    "GameStatistic": {
+      "$id": 2,
+      "$ref": "GameStatisticData"
+    },
+    "Color": "Blue",
+    "Name": "Dark Scatter",
+    "IsWinner": false,
+    "TeamAvatarIndex": 8,
+    "RatePoints": 0,
+    "DeathsCount": 0,
+    "FragsCount": 0,
+    "TeammateKillsCount": 0,
+    "HitsCount": 0,
+    "RevivalsCount": 0,
+    "DeviceCapturingsCount": 0,
+    "ShotsCount": 0,
+    "WoundsCount": 0,
+    "TreatmentsCount": 0,
+    "CreateDatetime": "2024-07-10T16:00:33.651+05:30",
+    "UpdateDatetime": "2024-07-10T16:00:33.651+05:30"
+  },
+  {
+    "_id": 5,
+    "GameStatistic": {
+      "$id": 3,
+      "$ref": "GameStatisticData"
+    },
+    "Color": "Red",
+    "Name": "Alpha Impact",
+    "IsWinner": true,
+    "TeamAvatarIndex": 1,
+    "RatePoints": 0,
+    "DeathsCount": 0,
+    "FragsCount": 0,
+    "TeammateKillsCount": 0,
+    "HitsCount": 0,
+    "RevivalsCount": 0,
+    "DeviceCapturingsCount": 0,
+    "ShotsCount": 0,
+    "WoundsCount": 0,
+    "TreatmentsCount": 0,
+    "CreateDatetime": "2024-07-10T18:18:50.398+05:30",
+    "UpdateDatetime": "2024-07-10T18:18:50.398+05:30"
+  },
+  {
+    "_id": 6,
+    "GameStatistic": {
+      "$id": 3,
+      "$ref": "GameStatisticData"
+    },
+    "Color": "Blue",
+    "Name": "Dark Scatter",
+    "IsWinner": false,
+    "TeamAvatarIndex": 3,
+    "RatePoints": 0,
+    "DeathsCount": 0,
+    "FragsCount": 0,
+    "TeammateKillsCount": 0,
+    "HitsCount": 0,
+    "RevivalsCount": 0,
+    "DeviceCapturingsCount": 0,
+    "ShotsCount": 0,
+    "WoundsCount": 0,
+    "TreatmentsCount": 0,
+    "CreateDatetime": "2024-07-10T18:18:50.399+05:30",
+    "UpdateDatetime": "2024-07-10T18:18:50.399+05:30"
+  }
+]
