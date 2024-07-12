@@ -1,0 +1,2251 @@
+[
+  {
+    "_id": 1,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:52:58.774+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.497+05:30"
+  },
+  {
+    "_id": 3,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:52:58.783+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.497+05:30"
+  },
+  {
+    "_id": 5,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:52:58.784+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.497+05:30"
+  },
+  {
+    "_id": 7,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "Machine-Gunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:52:58.785+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.497+05:30"
+  },
+  {
+    "_id": 9,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:52:58.786+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.497+05:30"
+  },
+  {
+    "_id": 11,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:52:58.786+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.497+05:30"
+  },
+  {
+    "_id": 13,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:52:58.787+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.497+05:30"
+  },
+  {
+    "_id": 155,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.629+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 156,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.637+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 157,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.645+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 158,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.652+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 159,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.659+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 160,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.668+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 161,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.676+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 162,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.688+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 163,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.696+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 164,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.704+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 165,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.712+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 166,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.72+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 167,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.729+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 168,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.736+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 169,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.747+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 170,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.755+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 171,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.764+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 172,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.771+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 173,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.779+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 174,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.788+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 175,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.798+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 176,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.811+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 177,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.822+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 178,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.832+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 179,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.847+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 180,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.858+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 181,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.868+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 182,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.876+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 183,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.89+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.512+05:30"
+  },
+  {
+    "_id": 184,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.9+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 185,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.909+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 186,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.918+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 187,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.926+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 188,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.935+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 189,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.945+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 190,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.959+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 191,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.974+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 192,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.985+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 193,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:52:59.994+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 194,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.003+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 195,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.015+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 196,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.025+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 197,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.039+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 198,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.047+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 199,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.056+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 200,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.065+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 201,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.073+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 202,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.082+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 203,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.094+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 204,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.107+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 205,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.119+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 206,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.129+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 207,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.14+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 208,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.151+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 209,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.161+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 210,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.174+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 211,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.189+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 212,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.2+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 213,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.21+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 214,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.22+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 215,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.23+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 216,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.239+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 217,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.25+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 218,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.263+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 219,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.274+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 220,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.285+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 221,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.297+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 222,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.308+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 223,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.318+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 224,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.329+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 225,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.344+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 226,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.355+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 227,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.367+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 228,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.377+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 229,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.387+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 230,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.398+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 231,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.408+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.513+05:30"
+  },
+  {
+    "_id": 232,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.424+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 233,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.436+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 234,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.447+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 235,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.458+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 236,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.47+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 237,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.48+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 238,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.493+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 253,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.68+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 254,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.695+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 255,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.706+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 256,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.717+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 257,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.728+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 258,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.739+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 259,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.75+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 260,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.766+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 261,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.778+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 262,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.792+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 263,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.807+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 264,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.821+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 265,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.833+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 266,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.85+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 267,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.865+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 268,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.876+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 269,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.887+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 270,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.899+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 271,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.91+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 272,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.922+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 273,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.934+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 274,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.953+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 275,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.966+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 276,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.982+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 277,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:00.996+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 278,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.008+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 279,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.02+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 280,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.034+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 281,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.05+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 282,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.065+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 283,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.08+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 284,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.093+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 285,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.107+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 286,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.119+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 287,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.132+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 288,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/sniper.png",
+    "IsDeleted": false,
+    "Code": "Sniper",
+    "DisplayName": "Sniper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.153+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 289,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/stormtrooper.png",
+    "IsDeleted": false,
+    "Code": "StormTrooper",
+    "DisplayName": "Storm Trooper",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.168+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 290,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/scout.png",
+    "IsDeleted": false,
+    "Code": "Scout",
+    "DisplayName": "Scout",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.182+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.514+05:30"
+  },
+  {
+    "_id": 291,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/machinegunner.png",
+    "IsDeleted": false,
+    "Code": "MachineGunner",
+    "DisplayName": "MachineGunner",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.196+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.515+05:30"
+  },
+  {
+    "_id": 292,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/commander.png",
+    "IsDeleted": false,
+    "Code": "Commander",
+    "DisplayName": "Commander",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.209+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.515+05:30"
+  },
+  {
+    "_id": 293,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/engineer.png",
+    "IsDeleted": false,
+    "Code": "Engineer",
+    "DisplayName": "Engineer",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.224+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.515+05:30"
+  },
+  {
+    "_id": 294,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/medic.png",
+    "IsDeleted": false,
+    "Code": "Medic",
+    "DisplayName": "Medic",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:01.238+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.515+05:30"
+  },
+  {
+    "_id": 313,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.595+05:30"
+  },
+  {
+    "_id": 314,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 315,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 316,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 317,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 318,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 319,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 320,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 321,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 322,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 323,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 324,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 325,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 326,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 327,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 328,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 329,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 330,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "LocalizationCode": "en-US",
+    "IsSystem": false,
+    "CreateDatetime": "2024-07-11T16:53:08.395+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  },
+  {
+    "_id": 331,
+    "ImagePath": "pack://application:,,,/Resources/Images/Roles/custom.jpg",
+    "IsDeleted": false,
+    "Code": "Default",
+    "DisplayName": "Default",
+    "Description": "Default role",
+    "LocalizationCode": "en-US",
+    "IsSystem": true,
+    "CreateDatetime": "2024-07-11T16:53:08.596+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:08.596+05:30"
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "_id": 1,
+    "FilePath": "%lang%\\round_end.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":1,\"TimeBeforeEvent\":\"00:00:00\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundEnd",
+    "CreateDatetime": "2024-07-11T16:53:10.143+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.143+05:30"
+  },
+  {
+    "_id": 2,
+    "FilePath": "%lang%\\team_wins_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":1,\"TimeBeforeEvent\":\"00:00:00\"}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.TeamWins",
+    "CreateDatetime": "2024-07-11T16:53:10.145+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.145+05:30"
+  },
+  {
+    "_id": 3,
+    "FilePath": "%lang%\\time_to_end_half.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GameTimeSoundCondition, AlphaTag.Common\",\"ConditionType\":2,\"TimeConditionType\":1,\"TimeBeforeEndGame\":\"00:00:00\"}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.HalfRound",
+    "CreateDatetime": "2024-07-11T16:53:10.146+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.146+05:30"
+  },
+  {
+    "_id": 4,
+    "FilePath": "%lang%\\team_leads_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GameTimeSoundCondition, AlphaTag.Common\",\"ConditionType\":2,\"TimeConditionType\":1,\"TimeBeforeEndGame\":\"00:00:00\"}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.TeamLeads",
+    "CreateDatetime": "2024-07-11T16:53:10.146+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.146+05:30"
+  },
+  {
+    "_id": 5,
+    "FilePath": "%lang%\\time_to_end_1m.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GameTimeSoundCondition, AlphaTag.Common\",\"ConditionType\":2,\"TimeConditionType\":0,\"TimeBeforeEndGame\":\"00:01:03\"}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.1mBefore",
+    "CreateDatetime": "2024-07-11T16:53:10.146+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.146+05:30"
+  },
+  {
+    "_id": 6,
+    "FilePath": "%lang%\\time_to_end_5m.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GameTimeSoundCondition, AlphaTag.Common\",\"ConditionType\":2,\"TimeConditionType\":0,\"TimeBeforeEndGame\":\"00:05:03\"}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.5mBefore",
+    "CreateDatetime": "2024-07-11T16:53:10.146+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.146+05:30"
+  },
+  {
+    "_id": 7,
+    "FilePath": "%lang%\\time_to_end_10m.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GameTimeSoundCondition, AlphaTag.Common\",\"ConditionType\":2,\"TimeConditionType\":0,\"TimeBeforeEndGame\":\"00:10:04\"}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.10mBefore",
+    "CreateDatetime": "2024-07-11T16:53:10.146+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.146+05:30"
+  },
+  {
+    "_id": 8,
+    "FilePath": "%lang%\\time_to_end_10s.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GameTimeSoundCondition, AlphaTag.Common\",\"ConditionType\":2,\"TimeConditionType\":0,\"TimeBeforeEndGame\":\"00:00:15\"}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.10sBefore",
+    "CreateDatetime": "2024-07-11T16:53:10.146+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.146+05:30"
+  },
+  {
+    "_id": 9,
+    "FilePath": "%lang%\\first_blood.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.AchievementSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Achievement\":18}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.FirstBlood",
+    "CreateDatetime": "2024-07-11T16:53:10.147+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.147+05:30"
+  },
+  {
+    "_id": 10,
+    "FilePath": "%lang%\\double_kill.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.AchievementSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Achievement\":22}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.Double",
+    "CreateDatetime": "2024-07-11T16:53:10.148+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.148+05:30"
+  },
+  {
+    "_id": 11,
+    "FilePath": "%lang%\\multi_kill.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.AchievementSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Achievement\":23}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.Triple",
+    "CreateDatetime": "2024-07-11T16:53:10.148+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.148+05:30"
+  },
+  {
+    "_id": 12,
+    "FilePath": "%lang%\\ultra_kill.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.AchievementSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Achievement\":24}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.TakeFive",
+    "CreateDatetime": "2024-07-11T16:53:10.148+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.148+05:30"
+  },
+  {
+    "_id": 13,
+    "FilePath": "%lang%\\rampage.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.AchievementSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Achievement\":25}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.Berserker",
+    "CreateDatetime": "2024-07-11T16:53:10.148+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.148+05:30"
+  },
+  {
+    "_id": 14,
+    "FilePath": "%lang%\\revenge.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.AchievementSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Achievement\":26}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.Avenger",
+    "CreateDatetime": "2024-07-11T16:53:10.148+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.148+05:30"
+  },
+  {
+    "_id": 15,
+    "FilePath": "%lang%\\flag_captured_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":149,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_DigitalFlag\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFCaptured",
+    "CreateDatetime": "2024-07-11T16:53:10.162+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.162+05:30"
+  },
+  {
+    "_id": 16,
+    "FilePath": "%lang%\\flag_planted_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":150,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_DigitalFlag\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFSet",
+    "CreateDatetime": "2024-07-11T16:53:10.162+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.162+05:30"
+  },
+  {
+    "_id": 17,
+    "FilePath": "%lang%\\bomb_activated_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":149,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"NuclearCase\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.NCActivation",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 18,
+    "FilePath": "%lang%\\bomb_deactivated_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":156,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"NuclearCase\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.NCDeactivation",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 19,
+    "FilePath": "%lang%\\bomb_explosion.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":155,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"NuclearCase\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.NCExplosion",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 20,
+    "Scenario": {
+      "$id": 21,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_team_deathmatch.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:08\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 21,
+    "Scenario": {
+      "$id": 22,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_team_deathmatch.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:08\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 22,
+    "Scenario": {
+      "$id": 23,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_control_ponts_capture.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:07\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 23,
+    "Scenario": {
+      "$id": 24,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_control_ponts_capture.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:07\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 24,
+    "Scenario": {
+      "$id": 25,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenarion_battle_royale.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:05\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.163+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.163+05:30"
+  },
+  {
+    "_id": 25,
+    "Scenario": {
+      "$id": 26,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenarion_battle_royale.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:05\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 26,
+    "Scenario": {
+      "$id": 27,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_war_of_the_worlds.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:05\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 27,
+    "Scenario": {
+      "$id": 28,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_war_of_the_worlds.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:05\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 28,
+    "Scenario": {
+      "$id": 29,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_last_hero.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:06\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 29,
+    "Scenario": {
+      "$id": 30,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_last_hero.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:06\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 30,
+    "Scenario": {
+      "$id": 31,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_vampires_vs_zombies.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:08\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 31,
+    "Scenario": {
+      "$id": 32,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_vampires_vs_zombies.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:08\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 32,
+    "Scenario": {
+      "$id": 35,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_vampires_vs_werewolves.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:07\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.164+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.164+05:30"
+  },
+  {
+    "_id": 33,
+    "Scenario": {
+      "$id": 36,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_vampires_vs_werewolves.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:07\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.165+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.165+05:30"
+  },
+  {
+    "_id": 34,
+    "Scenario": {
+      "$id": 37,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_standoff.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:06\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.165+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.165+05:30"
+  },
+  {
+    "_id": 35,
+    "Scenario": {
+      "$id": 38,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenario_standoff.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:06\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.165+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.165+05:30"
+  },
+  {
+    "_id": 36,
+    "Scenario": {
+      "$id": 39,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenarion_hunger_games.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:05\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.165+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.165+05:30"
+  },
+  {
+    "_id": 37,
+    "Scenario": {
+      "$id": 40,
+      "$ref": "ScenarioData"
+    },
+    "FilePath": "%lang%\\scenarion_hunger_games.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.GeneralEventSoundCondition, AlphaTag.Common\",\"ConditionType\":0,\"Event\":0,\"TimeBeforeEvent\":\"00:00:05\"}",
+    "PlayOrder": 0,
+    "DescriptionKey": "SoundDescription.RoundStart",
+    "CreateDatetime": "2024-07-11T16:53:10.165+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.165+05:30"
+  },
+  {
+    "_id": 38,
+    "FilePath": "%lang%\\arsenal_captured_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":154,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_Arsenal\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFArsenalCaptured",
+    "CreateDatetime": "2024-07-11T16:53:10.166+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.166+05:30"
+  },
+  {
+    "_id": 39,
+    "FilePath": "%lang%\\hospital_captured_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":154,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_Hospital\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFHospitalCaptured",
+    "CreateDatetime": "2024-07-11T16:53:10.166+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.166+05:30"
+  },
+  {
+    "_id": 40,
+    "FilePath": "%lang%\\military_base_destroyed_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":151,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_TeamBase\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFMilitaryBaseDestroyed",
+    "CreateDatetime": "2024-07-11T16:53:10.166+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.166+05:30"
+  },
+  {
+    "_id": 41,
+    "FilePath": "%lang%\\outpost_captured_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":151,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_Outpost\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFOutpostCaptured",
+    "CreateDatetime": "2024-07-11T16:53:10.166+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.166+05:30"
+  },
+  {
+    "_id": 42,
+    "FilePath": "%lang%\\flag_captured_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":154,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_CaptureFlag\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFCaptureFlagCaptured",
+    "CreateDatetime": "2024-07-11T16:53:10.166+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.166+05:30"
+  },
+  {
+    "_id": 43,
+    "FilePath": "%lang%\\flag_captured_%team%.wav",
+    "IsOn": true,
+    "ConditionJson": "{\"$type\":\"AlphaTag.Common.DeviceEventSoundCondition, AlphaTag.Common\",\"ConditionType\":1,\"Event\":154,\"ApplicableDevices\":{\"$type\":\"System.String[], mscorlib\",\"$values\":[\"DF_Confrontation\"]}}",
+    "PlayOrder": 1,
+    "DescriptionKey": "SoundDescription.DFConfrontationCaptured",
+    "CreateDatetime": "2024-07-11T16:53:10.166+05:30",
+    "UpdateDatetime": "2024-07-11T16:53:10.166+05:30"
+  }
+]

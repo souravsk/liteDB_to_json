@@ -1,0 +1,14 @@
+[
+  {
+    "_id": 1,
+    "RoleName": "Administrator",
+    "CreateDatetime": "2024-07-11T16:52:58.673+05:30",
+    "UpdateDatetime": "2024-07-11T16:52:58.673+05:30"
+  },
+  {
+    "_id": 2,
+    "RoleName": "Instructor",
+    "CreateDatetime": "2024-07-11T16:52:58.706+05:30",
+    "UpdateDatetime": "2024-07-11T16:52:58.706+05:30"
+  }
+]

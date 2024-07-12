@@ -1,0 +1,22 @@
+ using Alphatag_Game.Services;
+ using System.Reflection;
+ using System;
+
+ namespace Alphatag_Game
+ {
+     public class Program
+     {
+         static void Main()
+         {
+             string dbFilePath = @"C:\Users\DineshReddy\Desktop\liteDB_to_json\database_simple\alphatag.db";
+             string s3BucketName = "alphatag_db_json";
+             string executablePath = Path.GetFullPath(Assembly.GetExecutingAssembly().Location);
+
+             var liteDbToJsonService = new LiteDbToJsonService(dbFilePath, s3BucketName);
+             liteDbToJsonService.ConvertToJson();
+
+             var windowsTaskSchedulerService = new WindowsTaskSchedulerService(executablePath);
+             windowsTaskSchedulerService.CreateScheduledTask();
+         }
+     }
+ }
