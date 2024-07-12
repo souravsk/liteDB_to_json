@@ -24,15 +24,7 @@ public class BsonValueConverter : Newtonsoft.Json.JsonConverter<BsonValue>
         }
         else if (value.IsDateTime)
         {
-            try
-            {
-                writer.WriteValue(value.AsDateTime);
-            }
-            catch (ArgumentOutOfRangeException)
-            {
-                // Handle invalid date/time values
-                writer.WriteNull();
-            }
+            writer.WriteValue(value.AsDateTime);
         }
         else if (value.IsDouble)
         {
@@ -112,12 +104,13 @@ public class BsonValueConverter : Newtonsoft.Json.JsonConverter<BsonValue>
 
     public override bool CanWrite => true;
 }
+
     // Main program class
     public class Program
     {
         static void Main()
         {
-            string dbFilePath = @"C:\Users\GauriThor\Desktop\Alphatag-Game\alphatag-log.db";
+            string dbFilePath = @"C:\Users\DineshReddy\Desktop\liteDB_to_json\database_simple\alphatag1.db";
 
             using (var db = new LiteDatabase(dbFilePath))
             {

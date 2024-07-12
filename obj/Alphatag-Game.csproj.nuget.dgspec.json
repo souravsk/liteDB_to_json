@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GauriThor\\Desktop\\Alphatag-Game\\Alphatag-Game.csproj": {}
+    "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GauriThor\\Desktop\\Alphatag-Game\\Alphatag-Game.csproj": {
+    "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GauriThor\\Desktop\\Alphatag-Game\\Alphatag-Game.csproj",
+        "projectUniqueName": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
         "projectName": "Alphatag-Game",
-        "projectPath": "C:\\Users\\GauriThor\\Desktop\\Alphatag-Game\\Alphatag-Game.csproj",
-        "packagesPath": "C:\\Users\\GauriThor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GauriThor\\Desktop\\Alphatag-Game\\obj\\",
+        "projectPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
+        "packagesPath": "C:\\Users\\DineshReddy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GauriThor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DineshReddy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -43,6 +43,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.304.28, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.310.5, )"
+            },
             "LiteDB": {
               "target": "Package",
               "version": "[5.0.21, )"
@@ -50,6 +58,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

@@ -2,31 +2,17 @@
   {
     "_id": 1,
     "GameSession": {
-      "$id": 1,
-      "$ref": "GameSessionStatisticData"
-    },
-    "SessionStartDate": "2024-07-09T05:30:00+05:30",
-    "Duration": 827656916286,
-    "PlayersCount": 0,
-    "GamesCount": 1,
-    "EquipmentCount": 0,
-    "Cost": 0.0,
-    "CreateDatetime": "2024-07-10T15:04:03.66+05:30",
-    "UpdateDatetime": "2024-07-10T15:04:03.66+05:30"
-  },
-  {
-    "_id": 2,
-    "GameSession": {
       "$id": 2,
       "$ref": "GameSessionStatisticData"
     },
     "SessionStartDate": "2024-07-10T05:30:00+05:30",
-    "Duration": 23034667677,
-    "PlayersCount": 0,
-    "GamesCount": 1,
-    "EquipmentCount": 0,
+    "Duration": 5754898000,
+    "PlayersCount": 2,
+    "GamesCount": 2,
+    "EquipmentCount": 2,
     "Cost": 0.0,
-    "CreateDatetime": "2024-07-10T16:38:48.494+05:30",
-    "UpdateDatetime": "2024-07-10T16:38:48.494+05:30"
+    "ClientName": "Carlos",
+    "CreateDatetime": "2024-07-10T16:08:43.409+05:30",
+    "UpdateDatetime": "2024-07-10T16:08:43.409+05:30"
   }
 ]

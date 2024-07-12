@@ -1,16 +1,16 @@
 [
   {
     "_id": 1,
-    "Name": "Dinesh Reddy",
-    "NickName": "Dinesh",
-    "PhoneNumber": "8807906480",
-    "Email": "ddineshreddy123@gmail.com",
+    "Name": "Anton Masko",
+    "NickName": "ubermasko",
+    "PhoneNumber": "89156535104",
+    "Email": "ubermasko@gmail.com",
     "ImagePath": "custom.jpg",
-    "BirthDate": "2000-01-01T00:00:00+05:30",
+    "BirthDate": "2000-01-01T02:30:00+05:30",
     "Gender": 1,
-    "City": "pune",
-    "LastVisitDate": "0001-01-01T00:00:00",
-    "CreateDatetime": "2024-07-10T15:50:39.061+05:30",
-    "UpdateDatetime": "2024-07-10T15:50:39.061+05:30"
+    "City": "Smolensk",
+    "LastVisitDate": "2024-07-10T15:56:10.895+05:30",
+    "CreateDatetime": "2024-07-10T15:44:28.958+05:30",
+    "UpdateDatetime": "2024-07-10T15:56:10.896+05:30"
   }
 ]

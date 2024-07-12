@@ -6,9 +6,9 @@
       "$ref": "GameStatisticData"
     },
     "Color": "Red",
-    "Name": "Alpha Impact",
-    "IsWinner": true,
-    "TeamAvatarIndex": 5,
+    "Name": "Dark Scatter",
+    "IsWinner": false,
+    "TeamAvatarIndex": 11,
     "RatePoints": 0,
     "DeathsCount": 0,
     "FragsCount": 0,
@@ -19,8 +19,8 @@
     "ShotsCount": 0,
     "WoundsCount": 0,
     "TreatmentsCount": 0,
-    "CreateDatetime": "2024-07-09T16:09:49.132+05:30",
-    "UpdateDatetime": "2024-07-09T16:09:49.132+05:30"
+    "CreateDatetime": "2024-07-10T14:57:09.223+05:30",
+    "UpdateDatetime": "2024-07-10T14:57:09.223+05:30"
   },
   {
     "_id": 2,
@@ -29,9 +29,9 @@
       "$ref": "GameStatisticData"
     },
     "Color": "Blue",
-    "Name": "Noob Power",
+    "Name": "Scream Shadow",
     "IsWinner": false,
-    "TeamAvatarIndex": 2,
+    "TeamAvatarIndex": 0,
     "RatePoints": 0,
     "DeathsCount": 0,
     "FragsCount": 0,
@@ -42,8 +42,8 @@
     "ShotsCount": 0,
     "WoundsCount": 0,
     "TreatmentsCount": 0,
-    "CreateDatetime": "2024-07-09T16:09:49.132+05:30",
-    "UpdateDatetime": "2024-07-09T16:09:49.132+05:30"
+    "CreateDatetime": "2024-07-10T14:57:09.244+05:30",
+    "UpdateDatetime": "2024-07-10T14:57:09.244+05:30"
   },
   {
     "_id": 3,
@@ -54,19 +54,19 @@
     "Color": "Red",
     "Name": "Scream Shadow",
     "IsWinner": true,
-    "TeamAvatarIndex": 1,
-    "RatePoints": 0,
+    "TeamAvatarIndex": 11,
+    "RatePoints": 2,
     "DeathsCount": 0,
     "FragsCount": 0,
     "TeammateKillsCount": 0,
-    "HitsCount": 0,
+    "HitsCount": 2,
     "RevivalsCount": 0,
     "DeviceCapturingsCount": 0,
-    "ShotsCount": 0,
+    "ShotsCount": 25,
     "WoundsCount": 0,
     "TreatmentsCount": 0,
-    "CreateDatetime": "2024-07-10T16:00:33.651+05:30",
-    "UpdateDatetime": "2024-07-10T16:00:33.651+05:30"
+    "CreateDatetime": "2024-07-10T16:01:15.603+05:30",
+    "UpdateDatetime": "2024-07-10T16:01:15.603+05:30"
   },
   {
     "_id": 4,
@@ -77,7 +77,7 @@
     "Color": "Blue",
     "Name": "Dark Scatter",
     "IsWinner": false,
-    "TeamAvatarIndex": 8,
+    "TeamAvatarIndex": 2,
     "RatePoints": 0,
     "DeathsCount": 0,
     "FragsCount": 0,
@@ -86,10 +86,10 @@
     "RevivalsCount": 0,
     "DeviceCapturingsCount": 0,
     "ShotsCount": 0,
-    "WoundsCount": 0,
+    "WoundsCount": 2,
     "TreatmentsCount": 0,
-    "CreateDatetime": "2024-07-10T16:00:33.651+05:30",
-    "UpdateDatetime": "2024-07-10T16:00:33.651+05:30"
+    "CreateDatetime": "2024-07-10T16:01:15.629+05:30",
+    "UpdateDatetime": "2024-07-10T16:01:15.629+05:30"
   },
   {
     "_id": 5,
@@ -98,21 +98,21 @@
       "$ref": "GameStatisticData"
     },
     "Color": "Red",
-    "Name": "Alpha Impact",
+    "Name": "Scream Shadow",
     "IsWinner": true,
-    "TeamAvatarIndex": 1,
-    "RatePoints": 0,
+    "TeamAvatarIndex": 11,
+    "RatePoints": 8,
     "DeathsCount": 0,
-    "FragsCount": 0,
+    "FragsCount": 1,
     "TeammateKillsCount": 0,
-    "HitsCount": 0,
+    "HitsCount": 5,
     "RevivalsCount": 0,
     "DeviceCapturingsCount": 0,
-    "ShotsCount": 0,
+    "ShotsCount": 10,
     "WoundsCount": 0,
     "TreatmentsCount": 0,
-    "CreateDatetime": "2024-07-10T18:18:50.398+05:30",
-    "UpdateDatetime": "2024-07-10T18:18:50.398+05:30"
+    "CreateDatetime": "2024-07-10T16:04:44.34+05:30",
+    "UpdateDatetime": "2024-07-10T16:04:44.34+05:30"
   },
   {
     "_id": 6,
@@ -123,18 +123,18 @@
     "Color": "Blue",
     "Name": "Dark Scatter",
     "IsWinner": false,
-    "TeamAvatarIndex": 3,
-    "RatePoints": 0,
-    "DeathsCount": 0,
+    "TeamAvatarIndex": 2,
+    "RatePoints": -2,
+    "DeathsCount": 1,
     "FragsCount": 0,
     "TeammateKillsCount": 0,
     "HitsCount": 0,
     "RevivalsCount": 0,
     "DeviceCapturingsCount": 0,
     "ShotsCount": 0,
-    "WoundsCount": 0,
+    "WoundsCount": 5,
     "TreatmentsCount": 0,
-    "CreateDatetime": "2024-07-10T18:18:50.399+05:30",
-    "UpdateDatetime": "2024-07-10T18:18:50.399+05:30"
+    "CreateDatetime": "2024-07-10T16:04:44.341+05:30",
+    "UpdateDatetime": "2024-07-10T16:04:44.341+05:30"
   }
 ]

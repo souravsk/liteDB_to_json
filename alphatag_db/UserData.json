@@ -2,13 +2,13 @@
   {
     "_id": 1,
     "Login": "Administrator",
-    "PasswordHash": "4cFBbY1JcMQRraxO6azurMB6d/il5JIK",
-    "PhoneNumber": "8807906480",
+    "PasswordHash": "NELXR4SVQE6VgVa9iq+TVq+8CoQxHJX8",
+    "PhoneNumber": "89156535104",
     "Role": {
       "$id": 1,
       "$ref": "UserRoleData"
     },
-    "CreateDatetime": "2024-07-09T16:00:56.306+05:30",
-    "UpdateDatetime": "2024-07-09T16:00:56.306+05:30"
+    "CreateDatetime": "2024-07-10T14:52:38.234+05:30",
+    "UpdateDatetime": "2024-07-10T14:52:38.234+05:30"
   }
 ]
