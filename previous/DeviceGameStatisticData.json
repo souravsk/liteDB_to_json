@@ -245,5 +245,51 @@
     ],
     "CreateDatetime": "2024-07-10T16:04:44.341+05:30",
     "UpdateDatetime": "2024-07-10T16:04:44.341+05:30"
+  },
+  {
+    "_id": 7,
+    "GamePlayerId": 2,
+    "Player": {
+      "$id": 1,
+      "$ref": "ssss"
+    },
+    "PlayerGameName": "Sourav",
+    "PlayerGameNickName": "dj",
+    "PlayerPhoneNumber": "89156535104",
+    "PlayerGameImagePath": "c:\\users\\ekaterina\\appdata\\local\\laserwar\\alphatag\\avatars\\custom.jpg",
+    "TeamStatistic": {
+      "$id": 6,
+      "$ref": "TeamStatisticData"
+    },
+    "PlayerRole": {
+      "$id": 298,
+      "$ref": "PlayerRoleData"
+    },
+    "WeaponsName": [
+      "Predator"
+    ],
+    "RatePoints": -2,
+    "DeathsCount": 1,
+    "FragsCount": 0,
+    "TeammateKillsCount": 0,
+    "HitsCount": 0,
+    "RevivalsCount": 0,
+    "DeviceCapturingsCount": 0,
+    "ShotsCount": 0,
+    "WoundsCount": 5,
+    "TreatmentsCount": 0,
+    "MaxFragSeries": 0,
+    "Accuracy": 0.0,
+    "Achievements": [
+      "Brave",
+      "Batman",
+      "Kind",
+      "EasyTarget",
+      "Kamikaze",
+      "OffTheTarget",
+      "Pacifist"
+    ],
+    "CreateDatetime": "2024-07-10T16:04:44.341+05:30",
+    "UpdateDatetime": "2024-07-10T16:04:44.341+05:30"
   }
 ]

@@ -1,8 +1,4 @@
-using System;
-using System.IO;
 using System.IO.Compression;
-using System.Net.Http;
-using System.Threading.Tasks;
 
 namespace Alphatag_Game.Services
 {
@@ -47,6 +43,7 @@ namespace Alphatag_Game.Services
             }
         }
 
+        //Uploading Zip file to server
         public async Task UploadZipToServerAsync(string zipFilePath)
         {
             try
@@ -55,18 +52,9 @@ namespace Alphatag_Game.Services
                 {
                     client.Timeout = TimeSpan.FromMinutes(5);
 
-                    // Check the connection to the server URL
-                    var connectionCheckResponse = await client.GetAsync(_serverUrl);
-                    if (!connectionCheckResponse.IsSuccessStatusCode)
-                    {
-                        Console.WriteLine($"Error checking connection to server URL: {connectionCheckResponse.StatusCode} - {connectionCheckResponse.ReasonPhrase}");
-                        return;
-                    }
-
                     using (var content = new MultipartFormDataContent())
                     {
                         content.Add(new ByteArrayContent(File.ReadAllBytes(zipFilePath)), "file", Path.GetFileName(zipFilePath));
-                        Console.WriteLine($"Request content: {await content.ReadAsStringAsync()}");
                         var response = await client.PostAsync(_serverUrl, content);
 
                         if (response.IsSuccessStatusCode)
@@ -86,6 +74,15 @@ namespace Alphatag_Game.Services
             {
                 Console.WriteLine($"Error uploading zip file: {ex.Message}");
             }
+        }
+
+        //Saving output file on folder
+        public void ZipOutputFolder()
+        {
+            string zipFileName = $"alphatag_data_{DateTime.Now.ToString("yyyyMMddHHmmss")}.zip";
+            string zipFilePath = Path.Combine(_zipFolderPath, zipFileName);
+
+            ZipDirectory(_outputFolderPath, zipFilePath);
         }
     }
 }

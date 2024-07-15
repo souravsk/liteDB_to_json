@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj": {}
+    "/Users/sourav/Nexgensis/liteDB_to_json/Alphatag-Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj": {
+    "/Users/sourav/Nexgensis/liteDB_to_json/Alphatag-Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
+        "projectUniqueName": "/Users/sourav/Nexgensis/liteDB_to_json/Alphatag-Game.csproj",
         "projectName": "Alphatag-Game",
-        "projectPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
-        "packagesPath": "C:\\Users\\DineshReddy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\obj\\",
+        "projectPath": "/Users/sourav/Nexgensis/liteDB_to_json/Alphatag-Game.csproj",
+        "packagesPath": "/Users/sourav/.nuget/packages/",
+        "outputPath": "/Users/sourav/Nexgensis/liteDB_to_json/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DineshReddy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/sourav/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[5.0.21, )"
             },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,5 @@
 using LiteDB;
 using Newtonsoft.Json;
-using System;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace Alphatag_Game.Services
 {
@@ -10,19 +7,18 @@ namespace Alphatag_Game.Services
     {
         private readonly string _dbFilePath;
         private readonly string _s3BucketName;
-        private readonly string _connectionString;
         private readonly string _outputFolderPath;
         private readonly AwsS3Service _awsS3Service;
 
-        public LiteDbToJsonService(string dbFilePath, string s3BucketName, string connectionString, string outputFolderPath)
+        public LiteDbToJsonService(string dbFilePath, string s3BucketName, string outputFolderPath)
         {
             _dbFilePath = dbFilePath;
             _s3BucketName = s3BucketName;
-            _connectionString = connectionString;
             _outputFolderPath = outputFolderPath;
             _awsS3Service = new AwsS3Service(s3BucketName);
         }
 
+        // Converting database into json and then saving in to file
         public async Task ConvertToJsonAndInsertToPostgresAsync()
         {
             using (var db = new LiteDatabase(_dbFilePath))
@@ -40,25 +36,20 @@ namespace Alphatag_Game.Services
                     if (items.Any())
                     {
                         string json = JsonConvert.SerializeObject(items, Formatting.Indented, jsonSerializerSettings);
-                        // await _awsS3Service.UploadToS3Async(collectionName, json);
-                        // await InsertToPostgresAsync(collectionName, json);
                         await SaveToLocalFileAsync(collectionName, json);
                     }
                 }
             }
         }
 
-        private async Task InsertToPostgresAsync(string tableName, string json)
-        {
-            // Code to insert JSON data into PostgreSQL using the _connectionString
-            // ...
-        }
-
+        // saving the json files in the folder
         private async Task SaveToLocalFileAsync(string fileName, string json)
         {
-            string filePath = Path.Combine(_outputFolderPath, $"{fileName}.json");
+            string currentFilePath = Path.Combine(_outputFolderPath, $"{fileName}.json");
+
             Directory.CreateDirectory(_outputFolderPath);
-            await File.WriteAllTextAsync(filePath, json);
+
+            await File.WriteAllTextAsync(currentFilePath, json);
         }
     }
 }

@@ -10,8 +10,8 @@
     "DisplayName": "General",
     "Description": "For any weapon' type",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.838+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.838+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.636+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.636+05:30"
   },
   {
     "_id": 2,
@@ -24,8 +24,8 @@
     "DisplayName": "Predator",
     "Description": "Predator",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.839+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.839+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.642+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.642+05:30"
   },
   {
     "_id": 3,
@@ -38,8 +38,8 @@
     "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
     "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.84+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.84+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.646+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.646+05:30"
   },
   {
     "_id": 4,
@@ -52,8 +52,8 @@
     "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
     "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.84+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.84+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.647+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.647+05:30"
   },
   {
     "_id": 5,
@@ -66,8 +66,8 @@
     "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
     "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.841+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.841+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.648+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.648+05:30"
   },
   {
     "_id": 6,
@@ -80,8 +80,8 @@
     "DisplayName": "TERMINATOR",
     "Description": "TERMINATOR",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.842+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.842+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.648+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.648+05:30"
   },
   {
     "_id": 7,
@@ -94,8 +94,8 @@
     "DisplayName": "Warrior",
     "Description": "Warrior",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.842+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.842+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.649+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.649+05:30"
   },
   {
     "_id": 8,
@@ -108,8 +108,8 @@
     "DisplayName": "Ranger",
     "Description": "Ranger",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.844+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.844+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.65+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.65+05:30"
   },
   {
     "_id": 9,
@@ -122,8 +122,8 @@
     "DisplayName": "Phoenix",
     "Description": "Phoenix",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.849+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.849+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.651+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.651+05:30"
   },
   {
     "_id": 10,
@@ -136,8 +136,8 @@
     "DisplayName": "Submachine Gun (Ru)",
     "Description": "Submachine Gun (Ru)",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.85+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.85+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.651+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.651+05:30"
   },
   {
     "_id": 11,
@@ -150,8 +150,8 @@
     "DisplayName": "Submachine Gun (Wo)",
     "Description": "Submachine Gun (Wo)",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.85+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.85+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.652+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.652+05:30"
   },
   {
     "_id": 12,
@@ -164,8 +164,8 @@
     "DisplayName": "Pistol",
     "Description": "Pistol",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.851+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.851+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.653+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.653+05:30"
   },
   {
     "_id": 13,
@@ -178,8 +178,8 @@
     "DisplayName": "Hornet",
     "Description": "Hornet",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.852+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.852+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.654+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.654+05:30"
   },
   {
     "_id": 14,
@@ -192,8 +192,8 @@
     "DisplayName": "Sniper Light",
     "Description": "Sniper Light",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.853+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.853+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.654+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.654+05:30"
   },
   {
     "_id": 15,
@@ -206,8 +206,8 @@
     "DisplayName": "Sniper Medium",
     "Description": "Sniper Medium",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.854+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.854+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.659+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.659+05:30"
   },
   {
     "_id": 16,
@@ -220,8 +220,8 @@
     "DisplayName": "Sniper Large",
     "Description": "Sniper Large",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.854+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.854+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.66+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.66+05:30"
   },
   {
     "_id": 17,
@@ -234,8 +234,8 @@
     "DisplayName": "Machine Gun (Ru)",
     "Description": "Machine Gun (Ru)",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.856+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.856+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.661+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.661+05:30"
   },
   {
     "_id": 18,
@@ -248,8 +248,8 @@
     "DisplayName": "Machine Gun (Wo)",
     "Description": "Machine Gun (Wo)",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.857+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.857+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.661+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.661+05:30"
   },
   {
     "_id": 19,
@@ -262,8 +262,8 @@
     "DisplayName": "Shotgun",
     "Description": "Shotgun",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.858+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.858+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.662+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.662+05:30"
   },
   {
     "_id": 20,
@@ -276,8 +276,8 @@
     "DisplayName": "Grenade Launcher",
     "Description": "Grenade Launcher",
     "IsSystem": true,
-    "CreateDatetime": "2024-07-11T16:52:58.858+05:30",
-    "UpdateDatetime": "2024-07-11T16:52:58.858+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.663+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.663+05:30"
   },
   {
     "_id": 21,
@@ -290,8 +290,8 @@
     "DisplayName": "General",
     "Description": "For any weapon' type",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.523+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.523+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.676+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.676+05:30"
   },
   {
     "_id": 22,
@@ -304,8 +304,8 @@
     "DisplayName": "Predator",
     "Description": "Predator",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.529+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.529+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.687+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.687+05:30"
   },
   {
     "_id": 23,
@@ -318,8 +318,8 @@
     "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
     "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Ru)",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.531+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.531+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.69+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.69+05:30"
   },
   {
     "_id": 24,
@@ -332,8 +332,8 @@
     "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
     "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Eu)",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.533+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.533+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.694+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.694+05:30"
   },
   {
     "_id": 25,
@@ -346,8 +346,8 @@
     "DisplayName": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
     "Description": "Assault rifle, Automatic Rifle, Automatic Carbine (Usa)",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.536+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.536+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.697+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.697+05:30"
   },
   {
     "_id": 26,
@@ -360,8 +360,8 @@
     "DisplayName": "TERMINATOR",
     "Description": "TERMINATOR",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.538+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.538+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.699+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.699+05:30"
   },
   {
     "_id": 27,
@@ -374,8 +374,8 @@
     "DisplayName": "Warrior",
     "Description": "Warrior",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.54+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.54+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.702+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.702+05:30"
   },
   {
     "_id": 28,
@@ -388,8 +388,8 @@
     "DisplayName": "Ranger",
     "Description": "Ranger",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.543+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.543+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.705+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.705+05:30"
   },
   {
     "_id": 29,
@@ -402,8 +402,8 @@
     "DisplayName": "Phoenix",
     "Description": "Phoenix",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.546+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.546+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.708+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.708+05:30"
   },
   {
     "_id": 30,
@@ -416,8 +416,8 @@
     "DisplayName": "Submachine Gun (Ru)",
     "Description": "Submachine Gun (Ru)",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.549+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.549+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.711+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.711+05:30"
   },
   {
     "_id": 31,
@@ -430,8 +430,8 @@
     "DisplayName": "Submachine Gun (Wo)",
     "Description": "Submachine Gun (Wo)",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.551+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.551+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.715+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.715+05:30"
   },
   {
     "_id": 32,
@@ -444,8 +444,8 @@
     "DisplayName": "Pistol",
     "Description": "Pistol",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.554+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.554+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.726+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.726+05:30"
   },
   {
     "_id": 33,
@@ -458,8 +458,8 @@
     "DisplayName": "Hornet",
     "Description": "Hornet",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.557+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.557+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.729+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.729+05:30"
   },
   {
     "_id": 34,
@@ -472,8 +472,8 @@
     "DisplayName": "Sniper Light",
     "Description": "Sniper Light",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.559+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.559+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.733+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.733+05:30"
   },
   {
     "_id": 35,
@@ -486,8 +486,8 @@
     "DisplayName": "Sniper Medium",
     "Description": "Sniper Medium",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.562+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.562+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.737+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.737+05:30"
   },
   {
     "_id": 36,
@@ -500,8 +500,8 @@
     "DisplayName": "Sniper Large",
     "Description": "Sniper Large",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.565+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.565+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.74+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.74+05:30"
   },
   {
     "_id": 37,
@@ -514,8 +514,8 @@
     "DisplayName": "Machine Gun (Ru)",
     "Description": "Machine Gun (Ru)",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.568+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.568+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.745+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.745+05:30"
   },
   {
     "_id": 38,
@@ -528,8 +528,8 @@
     "DisplayName": "Machine Gun (Wo)",
     "Description": "Machine Gun (Wo)",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.571+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.571+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.748+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.748+05:30"
   },
   {
     "_id": 39,
@@ -542,8 +542,8 @@
     "DisplayName": "Shotgun",
     "Description": "Shotgun",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.574+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.574+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.752+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.752+05:30"
   },
   {
     "_id": 40,
@@ -556,7 +556,7 @@
     "DisplayName": "Grenade Launcher",
     "Description": "Grenade Launcher",
     "IsSystem": false,
-    "CreateDatetime": "2024-07-11T16:53:08.578+05:30",
-    "UpdateDatetime": "2024-07-11T16:53:08.578+05:30"
+    "CreateDatetime": "2024-07-10T14:55:48.756+05:30",
+    "UpdateDatetime": "2024-07-10T14:55:48.756+05:30"
   }
 ]

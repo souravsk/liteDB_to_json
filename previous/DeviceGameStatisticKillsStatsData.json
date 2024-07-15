@@ -1,0 +1,13 @@
+[
+  {
+    "_id": 1,
+    "DeviceGameStatistic": {
+      "$id": 6,
+      "$ref": "DeviceGameStatisticData"
+    },
+    "GamePlayerId": 1,
+    "KillsCount": 1,
+    "CreateDatetime": "2024-07-10T16:04:44.341+05:30",
+    "UpdateDatetime": "2024-07-10T16:04:44.341+05:30"
+  }
+]
