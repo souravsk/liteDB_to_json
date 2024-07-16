@@ -5,7 +5,10 @@ x64/
 x86/
 [Bb]in/
 [Oo]bj/
+current/
+previous/
 publish/
+
 
 # Rider project files
 .idea/

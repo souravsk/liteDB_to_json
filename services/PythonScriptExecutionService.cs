@@ -1,6 +1,4 @@
 using System.Diagnostics;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace Alphatag_Game.Services
 {
@@ -11,7 +9,8 @@ namespace Alphatag_Game.Services
             try
             {
                 // Get the path to the Python interpreter
-                string pythonInterpreterPath = "/usr/bin/python3"; // Update this with the correct path to your Python interpreter
+                string userName = Environment.UserName;
+                string pythonInterpreterPath = Path.Combine(@"C:\Users",userName, "AppData","Local", "Microsoft", "WindowsApps", "PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0","python.exe");
                 string pythonScriptPath = Path.Combine(Environment.CurrentDirectory, "my_python_script.py");
 
                 // Check if the Python script file exists

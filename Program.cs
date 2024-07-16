@@ -1,7 +1,6 @@
 ﻿using Alphatag_Game.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Threading.Tasks;
 
 namespace Alphatag_Game
 {
@@ -26,9 +25,10 @@ namespace Alphatag_Game
         private readonly MergeDetectionService _mergeDetectionService;
 
         public Worker()
-        {
-            string dbFilePath = @"/Users/sourav/Nexgensis/liteDB_to_json/sample_database/alphatag1.db";
-            // string s3BucketName = "alphatag_db_json";
+        {   
+            string userName = Environment.UserName;
+            string dbFilePath = Path.Combine(@"C:\Users",userName, "AppData", "Local", "Laserwar", "alphatag", "alphatag.db");
+           // string dbFilePath = @"/Users/sourav/Nexgensis/liteDB_to_json/sample_database/alphatag1.db";
             string outputFolderPath = Path.Combine(Environment.CurrentDirectory, "current");
 
             _mergeDetectionService = new MergeDetectionService(Path.GetDirectoryName(dbFilePath), outputFolderPath);

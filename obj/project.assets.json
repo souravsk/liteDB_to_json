@@ -2342,19 +2342,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/sourav/.nuget/packages/": {}
+    "C:\\Users\\DineshReddy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sourav/Nexgensis/liteDB_to_json/Alphatag-Game.csproj",
+      "projectUniqueName": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
       "projectName": "Alphatag-Game",
-      "projectPath": "/Users/sourav/Nexgensis/liteDB_to_json/Alphatag-Game.csproj",
-      "packagesPath": "/Users/sourav/.nuget/packages/",
-      "outputPath": "/Users/sourav/Nexgensis/liteDB_to_json/obj/",
+      "projectPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
+      "packagesPath": "C:\\Users\\DineshReddy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sourav/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\DineshReddy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2428,7 +2428,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

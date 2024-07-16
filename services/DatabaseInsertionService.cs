@@ -1,4 +1,3 @@
-// DatabaseInsertionService.cs
 using Npgsql;
 
 namespace Alphatag_Game.Services

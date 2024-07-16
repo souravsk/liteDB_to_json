@@ -6,16 +6,12 @@ namespace Alphatag_Game.Services
     public class LiteDbToJsonService
     {
         private readonly string _dbFilePath;
-        private readonly string _s3BucketName;
         private readonly string _outputFolderPath;
-        private readonly AwsS3Service _awsS3Service;
 
-        public LiteDbToJsonService(string dbFilePath, string s3BucketName, string outputFolderPath)
+        public LiteDbToJsonService(string dbFilePath, string outputFolderPath)
         {
             _dbFilePath = dbFilePath;
-            _s3BucketName = s3BucketName;
             _outputFolderPath = outputFolderPath;
-            _awsS3Service = new AwsS3Service(s3BucketName);
         }
 
         // Converting database into json and then saving in to file

@@ -50,9 +50,8 @@ namespace Alphatag_Game.Services
             try
             {
                 string dbFilePath = Path.Combine(_directoryToWatch, "alphatag.db");
-                string s3BucketName = "alphatag_db_json";
                 
-                var liteDbToJsonService = new LiteDbToJsonService(dbFilePath, s3BucketName, _outputFolderPath);
+                var liteDbToJsonService = new LiteDbToJsonService(dbFilePath, _outputFolderPath);
                 await liteDbToJsonService.ConvertToJsonAndInsertToPostgresAsync();
 
                 var pythonScriptExecutionService = new PythonScriptExecutionService();
