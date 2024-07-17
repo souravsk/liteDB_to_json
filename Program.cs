@@ -1,6 +1,10 @@
 ﻿using Alphatag_Game.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Alphatag_Game
 {
@@ -12,6 +16,23 @@ namespace Alphatag_Game
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
+                    services.AddSingleton<LiteDbToJsonService>(provider =>
+                    {
+                        string userName = Environment.UserName;
+                        string dbFilePath = Path.Combine(@"C:\Users", userName, "AppData", "Local", "Laserwar", "alphatag", "alphatag.db");
+                        string outputFolderPath = Path.Combine(Environment.CurrentDirectory, "current");
+                        return new LiteDbToJsonService(dbFilePath, outputFolderPath);
+                    });
+                    services.AddSingleton<PythonScriptExecutionService>();
+                    services.AddSingleton<MergeDetectionService>(provider =>
+                    {
+                        string userName = Environment.UserName;
+                        string dbFilePath = Path.Combine(@"C:\Users", userName, "AppData", "Local", "Laserwar", "alphatag", "alphatag.db");
+                        string outputFolderPath = Path.Combine(Environment.CurrentDirectory, "current");
+                        var liteDbToJsonService = provider.GetRequiredService<LiteDbToJsonService>();
+                        var pythonScriptExecutionService = provider.GetRequiredService<PythonScriptExecutionService>();
+                        return new MergeDetectionService(dbFilePath, outputFolderPath, liteDbToJsonService, pythonScriptExecutionService);
+                    });
                 })
                 .UseWindowsService()
                 .Build();
@@ -20,24 +41,44 @@ namespace Alphatag_Game
         }
     }
 
-    public class Worker : BackgroundService
-    {
-        private readonly MergeDetectionService _mergeDetectionService;
-
-        public Worker()
-        {   
-            string userName = Environment.UserName;
-            string dbFilePath = Path.Combine(@"C:\Users",userName, "AppData", "Local", "Laserwar", "alphatag", "alphatag.db");
-           // string dbFilePath = @"/Users/sourav/Nexgensis/liteDB_to_json/sample_database/alphatag1.db";
-            string outputFolderPath = Path.Combine(Environment.CurrentDirectory, "current");
-
-            _mergeDetectionService = new MergeDetectionService(Path.GetDirectoryName(dbFilePath), outputFolderPath);
-        }
-
-        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+       public class Worker : BackgroundService
         {
-            _mergeDetectionService.StartWatching();
-            await Task.Delay(-1, stoppingToken);
+            private readonly MergeDetectionService _mergeDetectionService;
+            private readonly ILogger<Worker> _logger;
+            private Timer _timer;
+
+            public Worker(MergeDetectionService mergeDetectionService, ILogger<Worker> logger)
+            {
+                _mergeDetectionService = mergeDetectionService;
+                _logger = logger;
+            }
+
+            protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+            {
+                _logger.LogInformation("Worker service is starting.");
+
+                _timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromMinutes(1));
+
+                while (!stoppingToken.IsCancellationRequested)
+                {
+                    await Task.Delay(1000, stoppingToken);
+                }
+
+                _timer?.Dispose();
+
+                _logger.LogInformation("Worker service is stopping.");
+            }
+
+            private async void DoWork(object state)
+            {
+                try
+                {
+                    await _mergeDetectionService.RunApplicationAsync();
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Error running application logic.");
+                }
+            }
         }
-    }
 }

@@ -7,7 +7,7 @@ namespace Alphatag_Game.Services
     {
         private readonly string _dbFilePath;
         private readonly string _outputFolderPath;
-
+        
         public LiteDbToJsonService(string dbFilePath, string outputFolderPath)
         {
             _dbFilePath = dbFilePath;

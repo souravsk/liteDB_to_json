@@ -1,61 +1,31 @@
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Alphatag_Game.Services
 {
-    public class MergeDetectionService
+   public class MergeDetectionService
     {
-        private readonly string _directoryToWatch;
+        private readonly string _dbFilePath;
         private readonly string _outputFolderPath;
+        private readonly LiteDbToJsonService _liteDbToJsonService;
+        private readonly PythonScriptExecutionService _pythonScriptExecutionService;
 
-        public MergeDetectionService(string directoryToWatch, string outputFolderPath)
+        public MergeDetectionService(string dbFilePath, string outputFolderPath, LiteDbToJsonService liteDbToJsonService, PythonScriptExecutionService pythonScriptExecutionService)
         {
-            _directoryToWatch = directoryToWatch;
+            _dbFilePath = dbFilePath;
             _outputFolderPath = outputFolderPath;
+            _liteDbToJsonService = liteDbToJsonService;
+            _pythonScriptExecutionService = pythonScriptExecutionService;
         }
 
-        public void StartWatching()
-        {
-            FileSystemWatcher watcher = new FileSystemWatcher(_directoryToWatch);
-
-            // Watch for changes in LastWrite times and the renaming of files or directories.
-            watcher.NotifyFilter = NotifyFilters.LastWrite | NotifyFilters.FileName;
-
-            // Watch for changes in the database files.
-            watcher.Filter = "*.db";
-
-            // Add event handlers.
-            watcher.Changed += OnChanged;
-            watcher.Created += OnChanged;
-
-            // Begin watching.
-            watcher.EnableRaisingEvents = true;
-        }
-
-        private async void OnChanged(object source, FileSystemEventArgs e)
-        {
-            // Check if the merge event is detected (this is just an example, adjust as needed)
-            if (e.Name == "alphatag.db")
-            {
-                Console.WriteLine("Merge detected. Running the application...");
-
-                // Run the application logic
-                await RunApplicationAsync();
-            }
-        }
-
-        private async Task RunApplicationAsync()
+        public async Task RunApplicationAsync()
         {
             try
             {
-                string dbFilePath = Path.Combine(_directoryToWatch, "alphatag.db");
-                
-                var liteDbToJsonService = new LiteDbToJsonService(dbFilePath, _outputFolderPath);
-                await liteDbToJsonService.ConvertToJsonAndInsertToPostgresAsync();
-
-                var pythonScriptExecutionService = new PythonScriptExecutionService();
-                await pythonScriptExecutionService.RunPythonScriptAsync();
+                await _liteDbToJsonService.ConvertToJsonAndInsertToPostgresAsync();
+                await _pythonScriptExecutionService.RunPythonScriptAsync();
             }
             catch (Exception ex)
             {
