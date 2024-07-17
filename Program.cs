@@ -41,44 +41,44 @@ namespace Alphatag_Game
         }
     }
 
-       public class Worker : BackgroundService
+    public class Worker : BackgroundService
+    {
+        private readonly MergeDetectionService _mergeDetectionService;
+        private readonly ILogger<Worker> _logger;
+        private Timer _timer;
+
+        public Worker(MergeDetectionService mergeDetectionService, ILogger<Worker> logger)
         {
-            private readonly MergeDetectionService _mergeDetectionService;
-            private readonly ILogger<Worker> _logger;
-            private Timer _timer;
+            _mergeDetectionService = mergeDetectionService;
+            _logger = logger;
+        }
 
-            public Worker(MergeDetectionService mergeDetectionService, ILogger<Worker> logger)
+        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+        {
+            _logger.LogInformation("Worker service is starting.");
+
+            _timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromMinutes(10));
+
+            while (!stoppingToken.IsCancellationRequested)
             {
-                _mergeDetectionService = mergeDetectionService;
-                _logger = logger;
+                await Task.Delay(1000, stoppingToken);
             }
 
-            protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+            _timer?.Dispose();
+
+            _logger.LogInformation("Worker service is stopping.");
+        }
+
+        private async void DoWork(object state)
+        {
+            try
             {
-                _logger.LogInformation("Worker service is starting.");
-
-                _timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromMinutes(1));
-
-                while (!stoppingToken.IsCancellationRequested)
-                {
-                    await Task.Delay(1000, stoppingToken);
-                }
-
-                _timer?.Dispose();
-
-                _logger.LogInformation("Worker service is stopping.");
+                await _mergeDetectionService.RunApplicationAsync();
             }
-
-            private async void DoWork(object state)
+            catch (Exception ex)
             {
-                try
-                {
-                    await _mergeDetectionService.RunApplicationAsync();
-                }
-                catch (Exception ex)
-                {
-                    _logger.LogError(ex, "Error running application logic.");
-                }
+                _logger.LogError(ex, "Error running application logic.");
             }
         }
+    }
 }
