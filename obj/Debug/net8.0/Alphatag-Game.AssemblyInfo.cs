@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alphatag-Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8cf7cbf4091e6074c6f10e98a75454913888239")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7fa6504cfe2ced4b1c8df354b1d39297b35dfcb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alphatag-Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alphatag-Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,10 +1,10 @@
-﻿using Alphatag_Game.Services;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Threading;
+using System.IO;
 using System.Threading.Tasks;
+using Alphatag_Game.Services;
 
 namespace Alphatag_Game
 {
@@ -13,71 +13,64 @@ namespace Alphatag_Game
         public static async Task Main(string[] args)
         {
             var host = Host.CreateDefaultBuilder(args)
+                .ConfigureLogging(logging =>
+                {
+                    logging.ClearProviders();
+                    logging.AddConsole();
+                })
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddHostedService<Worker>();
-                    services.AddSingleton<LiteDbToJsonService>(provider =>
+                    string userName = Environment.UserName;
+                    string dbFilePath = Path.Combine(@"C:\Users", userName, "AppData", "Local", "Laserwar", "alphatag", "alphatag.db");
+                    string outputFolderPath = Path.Combine(Environment.CurrentDirectory, "current");
+
+                    services.AddSingleton<GameMonitoringService>();
+                    services.AddSingleton<LiteDbToJsonService>(provider => 
+                        new LiteDbToJsonService(dbFilePath, outputFolderPath));
+                    
+                    services.AddSingleton(provider =>
                     {
-                        string userName = Environment.UserName;
-                        string dbFilePath = Path.Combine(@"C:\Users", userName, "AppData", "Local", "Laserwar", "alphatag", "alphatag.db");
-                        string outputFolderPath = Path.Combine(Environment.CurrentDirectory, "current");
-                        return new LiteDbToJsonService(dbFilePath, outputFolderPath);
-                    });
-                    services.AddSingleton<PythonScriptExecutionService>();
-                    services.AddSingleton<MergeDetectionService>(provider =>
-                    {
-                        string userName = Environment.UserName;
-                        string dbFilePath = Path.Combine(@"C:\Users", userName, "AppData", "Local", "Laserwar", "alphatag", "alphatag.db");
-                        string outputFolderPath = Path.Combine(Environment.CurrentDirectory, "current");
+                        var logger = provider.GetRequiredService<ILogger<GameMonitoringService>>();
                         var liteDbToJsonService = provider.GetRequiredService<LiteDbToJsonService>();
                         var pythonScriptExecutionService = provider.GetRequiredService<PythonScriptExecutionService>();
-                        return new MergeDetectionService(dbFilePath, outputFolderPath, liteDbToJsonService, pythonScriptExecutionService);
+                        return new GameMonitoringService("AlphaTag", dbFilePath, outputFolderPath, logger, liteDbToJsonService, pythonScriptExecutionService);
                     });
+
+                    services.AddSingleton<PythonScriptExecutionService>();
                 })
-                .UseWindowsService()
+                .UseWindowsService() // Use this for Windows service hosting
                 .Build();
 
-            await host.RunAsync();
-        }
-    }
+            var logger = host.Services.GetRequiredService<ILogger<Program>>();
+            logger.LogInformation("Application is starting.");
 
-    public class Worker : BackgroundService
-    {
-        private readonly MergeDetectionService _mergeDetectionService;
-        private readonly ILogger<Worker> _logger;
-        private Timer _timer;
-
-        public Worker(MergeDetectionService mergeDetectionService, ILogger<Worker> logger)
-        {
-            _mergeDetectionService = mergeDetectionService;
-            _logger = logger;
-        }
-
-        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
-        {
-            _logger.LogInformation("Worker service is starting.");
-
-            _timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromMinutes(10));
-
-            while (!stoppingToken.IsCancellationRequested)
-            {
-                await Task.Delay(1000, stoppingToken);
-            }
-
-            _timer?.Dispose();
-
-            _logger.LogInformation("Worker service is stopping.");
-        }
-
-        private async void DoWork(object state)
-        {
             try
             {
-                await _mergeDetectionService.RunApplicationAsync();
+                // Start the host
+                await host.StartAsync();
+
+                // Start monitoring the game and converting LiteDB to JSON
+                var gameMonitoringService = host.Services.GetRequiredService<GameMonitoringService>();
+                await gameMonitoringService.MonitorGameAndConvertAsync();
+
+                // Keep the application running until terminated
+                await host.WaitForShutdownAsync();
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error running application logic.");
+                logger.LogError(ex, "An error occurred while running the application.");
+            }
+            finally
+            {
+                // Ensure to gracefully stop the host
+                if (host is IAsyncDisposable asyncDisposableHost)
+                {
+                    await asyncDisposableHost.DisposeAsync();
+                }
+                else if (host is IDisposable disposableHost)
+                {
+                    disposableHost.Dispose();
+                }
             }
         }
     }

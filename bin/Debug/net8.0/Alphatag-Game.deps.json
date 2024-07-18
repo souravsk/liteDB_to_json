@@ -8,8 +8,6 @@
     ".NETCoreApp,Version=v8.0": {
       "Alphatag-Game/1.0.0": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.304.28",
-          "AWSSDK.S3": "3.7.310.5",
           "LiteDB": "5.0.21",
           "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
@@ -18,25 +16,6 @@
         },
         "runtime": {
           "Alphatag-Game.dll": {}
-        }
-      },
-      "AWSSDK.Core/3.7.304.28": {
-        "runtime": {
-          "lib/net8.0/AWSSDK.Core.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.304.28"
-          }
-        }
-      },
-      "AWSSDK.S3/3.7.310.5": {
-        "dependencies": {
-          "AWSSDK.Core": "3.7.304.28"
-        },
-        "runtime": {
-          "lib/net8.0/AWSSDK.S3.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.310.5"
-          }
         }
       },
       "LiteDB/5.0.21": {
@@ -516,20 +495,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "AWSSDK.Core/3.7.304.28": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gcRx4pE9X2V6vWYfKIgf4xsiZqdFrTuWkQ79wXbDLGIUIeL1cfUGV3/hWkTIg+jPohZsFNsyM+bHzNEK6tWblA==",
-      "path": "awssdk.core/3.7.304.28",
-      "hashPath": "awssdk.core.3.7.304.28.nupkg.sha512"
-    },
-    "AWSSDK.S3/3.7.310.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Dl5A+xFA0DwtWw/KhwcsJCQz1jFihdrmFEI603FeukZtltWW0a6/q49MGFObclKgvXirRd5bw6mLkHB99MLkMw==",
-      "path": "awssdk.s3/3.7.310.5",
-      "hashPath": "awssdk.s3.3.7.310.5.nupkg.sha512"
     },
     "LiteDB/5.0.21": {
       "type": "package",

@@ -2,35 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "AWSSDK.Core/3.7.304.28": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/AWSSDK.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/AWSSDK.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "AWSSDK.S3/3.7.310.5": {
-        "type": "package",
-        "dependencies": {
-          "AWSSDK.Core": "[3.7.304.28, 4.0.0)"
-        },
-        "compile": {
-          "lib/net8.0/AWSSDK.S3.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/AWSSDK.S3.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "LiteDB/5.0.21": {
         "type": "package",
         "dependencies": {
@@ -840,67 +811,6 @@
     }
   },
   "libraries": {
-    "AWSSDK.Core/3.7.304.28": {
-      "sha512": "gcRx4pE9X2V6vWYfKIgf4xsiZqdFrTuWkQ79wXbDLGIUIeL1cfUGV3/hWkTIg+jPohZsFNsyM+bHzNEK6tWblA==",
-      "type": "package",
-      "path": "awssdk.core/3.7.304.28",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "awssdk.core.3.7.304.28.nupkg.sha512",
-        "awssdk.core.nuspec",
-        "images/AWSLogo.png",
-        "lib/net35/AWSSDK.Core.dll",
-        "lib/net35/AWSSDK.Core.pdb",
-        "lib/net35/AWSSDK.Core.xml",
-        "lib/net45/AWSSDK.Core.dll",
-        "lib/net45/AWSSDK.Core.pdb",
-        "lib/net45/AWSSDK.Core.xml",
-        "lib/net8.0/AWSSDK.Core.dll",
-        "lib/net8.0/AWSSDK.Core.pdb",
-        "lib/net8.0/AWSSDK.Core.xml",
-        "lib/netcoreapp3.1/AWSSDK.Core.dll",
-        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
-        "lib/netcoreapp3.1/AWSSDK.Core.xml",
-        "lib/netstandard2.0/AWSSDK.Core.dll",
-        "lib/netstandard2.0/AWSSDK.Core.pdb",
-        "lib/netstandard2.0/AWSSDK.Core.xml",
-        "tools/account-management.ps1"
-      ]
-    },
-    "AWSSDK.S3/3.7.310.5": {
-      "sha512": "Dl5A+xFA0DwtWw/KhwcsJCQz1jFihdrmFEI603FeukZtltWW0a6/q49MGFObclKgvXirRd5bw6mLkHB99MLkMw==",
-      "type": "package",
-      "path": "awssdk.s3/3.7.310.5",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
-        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
-        "awssdk.s3.3.7.310.5.nupkg.sha512",
-        "awssdk.s3.nuspec",
-        "images/AWSLogo.png",
-        "lib/net35/AWSSDK.S3.dll",
-        "lib/net35/AWSSDK.S3.pdb",
-        "lib/net35/AWSSDK.S3.xml",
-        "lib/net45/AWSSDK.S3.dll",
-        "lib/net45/AWSSDK.S3.pdb",
-        "lib/net45/AWSSDK.S3.xml",
-        "lib/net8.0/AWSSDK.S3.dll",
-        "lib/net8.0/AWSSDK.S3.pdb",
-        "lib/net8.0/AWSSDK.S3.xml",
-        "lib/netcoreapp3.1/AWSSDK.S3.dll",
-        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
-        "lib/netcoreapp3.1/AWSSDK.S3.xml",
-        "lib/netstandard2.0/AWSSDK.S3.dll",
-        "lib/netstandard2.0/AWSSDK.S3.pdb",
-        "lib/netstandard2.0/AWSSDK.S3.xml",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    },
     "LiteDB/5.0.21": {
       "sha512": "ykJ7ffFl7P9YQKR/PLci6zupiLrsSCNkOTiw6OtzntH7d2kCYp5L1+3a/pksKgTEHcJBoPXFtg7VZSGVBseN9w==",
       "type": "package",
@@ -2332,8 +2242,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AWSSDK.Core >= 3.7.304.28",
-      "AWSSDK.S3 >= 3.7.310.5",
       "LiteDB >= 5.0.21",
       "Microsoft.Extensions.Hosting.WindowsServices >= 8.0.0",
       "Newtonsoft.Json >= 13.0.3",
@@ -2342,19 +2250,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DineshReddy\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\litedb_to_json\\Alphatag-Game.csproj",
       "projectName": "Alphatag-Game",
-      "projectPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\Alphatag-Game.csproj",
-      "packagesPath": "C:\\Users\\DineshReddy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DineshReddy\\Desktop\\liteDB_to_json\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\litedb_to_json\\Alphatag-Game.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\litedb_to_json\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DineshReddy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2383,14 +2291,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "AWSSDK.Core": {
-            "target": "Package",
-            "version": "[3.7.304.28, )"
-          },
-          "AWSSDK.S3": {
-            "target": "Package",
-            "version": "[3.7.310.5, )"
-          },
           "LiteDB": {
             "target": "Package",
             "version": "[5.0.21, )"

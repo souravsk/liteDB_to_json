@@ -11,36 +11,42 @@ namespace Alphatag_Game.Services
         {
             try
             {
-                string userName = Environment.UserName;
-                string pythonInterpreterPath = Path.Combine(@"C:\Users", userName, "AppData", "Local", "Microsoft", "WindowsApps", "PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0", "python.exe");
+                string pythonInterpreterPath = @"C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe";
                 string pythonScriptPath = Path.Combine(Environment.CurrentDirectory, "my_python_script.py");
 
                 if (!File.Exists(pythonScriptPath))
                 {
-                    throw new FileNotFoundException($"The Python script file was not found: {pythonScriptPath}");
+                    throw new FileNotFoundException($"Python script not found: {pythonScriptPath}");
                 }
 
-                Process pythonProcess = new Process();
-                pythonProcess.StartInfo.FileName = pythonInterpreterPath;
-                pythonProcess.StartInfo.Arguments = pythonScriptPath;
-                pythonProcess.StartInfo.UseShellExecute = false;
-                pythonProcess.StartInfo.RedirectStandardOutput = true;
-                pythonProcess.StartInfo.RedirectStandardError = true;
-                pythonProcess.Start();
+                var startInfo = new ProcessStartInfo
+                {
+                    FileName = pythonInterpreterPath,
+                    Arguments = pythonScriptPath,
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                };
 
-                await pythonProcess.WaitForExitAsync();
+                using (var process = Process.Start(startInfo))
+                {
+                    if (process == null)
+                    {
+                        throw new Exception("Failed to start Python process.");
+                    }
 
-                string output = await pythonProcess.StandardOutput.ReadToEndAsync();
-                string error = await pythonProcess.StandardError.ReadToEndAsync();
+                    await Task.WhenAll(
+                        process.StandardOutput.ReadToEndAsync().ContinueWith(t => Console.WriteLine($"Python output: {t.Result}")),
+                        process.StandardError.ReadToEndAsync().ContinueWith(t => Console.WriteLine($"Python error: {t.Result}"))
+                    );
 
-                Console.WriteLine("Python script output:");
-                Console.WriteLine(output);
-                Console.WriteLine("Python script error:");
-                Console.WriteLine(error);
+                    process.WaitForExit();
+                }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error running Python script: {ex.Message}");
+                throw;
             }
         }
     }

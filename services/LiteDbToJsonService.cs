@@ -1,5 +1,9 @@
-using LiteDB;
 using Newtonsoft.Json;
+using LiteDB;
+using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Alphatag_Game.Services
 {
@@ -7,21 +11,20 @@ namespace Alphatag_Game.Services
     {
         private readonly string _dbFilePath;
         private readonly string _outputFolderPath;
-        
+
         public LiteDbToJsonService(string dbFilePath, string outputFolderPath)
         {
             _dbFilePath = dbFilePath;
             _outputFolderPath = outputFolderPath;
         }
 
-        // Converting database into json and then saving in to file
-        public async Task ConvertToJsonAndInsertToPostgresAsync()
+        public async Task ConvertToJsonAndSaveAsync()
         {
+            // Ensure output directory exists
+            Directory.CreateDirectory(_outputFolderPath);
+
             using (var db = new LiteDatabase(_dbFilePath))
             {
-                var jsonSerializerSettings = new JsonSerializerSettings();
-                jsonSerializerSettings.Converters.Add(new BsonValueConverter());
-
                 var collectionNames = db.GetCollectionNames();
 
                 foreach (var collectionName in collectionNames)
@@ -31,21 +34,20 @@ namespace Alphatag_Game.Services
 
                     if (items.Any())
                     {
-                        string json = JsonConvert.SerializeObject(items, Formatting.Indented, jsonSerializerSettings);
-                        await SaveToLocalFileAsync(collectionName, json);
+                        string jsonFilePath = Path.Combine(_outputFolderPath, $"{collectionName}.json");
+
+                        // Use JsonSerializerSettings to configure serialization
+                        var settings = new JsonSerializerSettings
+                        {
+                            Converters = { new BsonValueConverter() },
+                            Formatting = Formatting.Indented
+                        };
+
+                        string json = JsonConvert.SerializeObject(items, settings);
+                        await File.WriteAllTextAsync(jsonFilePath, json);
                     }
                 }
             }
-        }
-
-        // saving the json files in the folder
-        private async Task SaveToLocalFileAsync(string fileName, string json)
-        {
-            string currentFilePath = Path.Combine(_outputFolderPath, $"{fileName}.json");
-
-            Directory.CreateDirectory(_outputFolderPath);
-
-            await File.WriteAllTextAsync(currentFilePath, json);
         }
     }
 }
